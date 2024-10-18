@@ -1,0 +1,95 @@
+
+        //for문 이용해서 최대값 산출
+       /*int max = 0;
+       int array[] = {8, 6, 9, 5};
+
+       for (int i=0; i<array.length; i++) {
+           if (max <array[i]) {
+               max = array[i];
+           }
+           System.out.println("최대값: " + max);
+       }*/
+
+        //중첩 FOR문 이용해서 배열전체 합, 평균 구하기
+
+        /*int [][]array = {
+                {95, 86},
+                {83,92,96},
+                {78,83,93,87,88}
+        };
+
+        int sum = 0;
+        double avg = 0;
+
+        for (int i=0; i < array.length; i++) {
+            for (int j =0; j < array[i].length; j++) {
+                sum += array[i][j];
+            }
+            avg = sum/array.length;
+        }
+        System.out.println("The average is " + avg);
+        System.out.println("The sum is " + sum);*/
+
+        //키보드로 학생 수와 점수 입력받아서, 최고 점수 및 평균 점수를 구하는 프로그램
+import java.util.Scanner;
+public class array {
+    public static void main(String[] args) {
+
+
+       /* boolean run = true;
+        int Num = 0;
+        int[]scores = null;
+        Scanner sc = new Scanner(System.in);
+
+        while (run) {
+            System.out.println("---------------------------------------");
+            System.out.println("1.학생수 | 2. 점수입력 | 3. 점수리스트 | 4. 분석 | 5. 종료 ");
+            System.out.println("---------------------------------------");
+            System.out.println("선택>");
+            System.out.println("학생수>");
+
+            int selectNo = Integer.parseInt(sc.nextLine());
+
+            if(selectNo == 1) {
+                System.out.println("학생수>");
+                Num = Integer.parseInt(sc.nextLine());
+                scores = new int[Num];
+            }else if(selectNo == 2) {
+                for(int i=0;i<scores.length;i++) {
+                    System.out.println("scores[" + i + "] = " + scores[i]);
+                    scores[i] = Integer.parseInt(sc.nextLine());
+                }
+            }else if(selectNo == 3) {
+                for(int i=0;i<scores.length;i++) {
+                    System.out.println("scores[" + i + "] = " + scores[i]);
+
+                }
+            }else if(selectNo == 4) {
+                for(int i=0;i<Num;i++) {
+                    int max = 0;
+                    int sum = 0;
+                    double average = 0;
+
+                    for(int k=0;k<Num;k++){
+                        if (scores[k] > max) {
+                            max = scores[k];
+                        }
+                        sum += scores[k];
+                    }
+                    average = sum / Num;
+                    System.out.println("최고점수는 "+ max + "입니다");
+                    System.out.println("점수 합은 "+ sum + "입니다");
+                    System.out.println("점수 평균은 "+ average + "입니다");
+                }
+            }else if(selectNo == 5) {
+                run = false;
+
+            }
+        }
+        System.out.println("프로그램 종료");*/
+
+
+
+    }
+
+}
