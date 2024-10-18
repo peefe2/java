@@ -1,0 +1,115 @@
+public class Practice{
+    public static void main(String[] args) {
+
+//조건문
+        /*int score = 70;
+        if(score > 80){
+            System.out.println("점수가 80점보다 큽니다.");
+            System.out.println("등급은 B입니다.");
+        }
+        else{
+            System.out.println("점수가 80점보다 작습니다.");
+            System.out.println("등급은 c압니다.");
+        }*/
+
+//        int num = (int)(Math.random()*6)+1;
+//
+//        if (num == 1){
+//            System.out.println("주사위는 1입니다.");
+//        }
+//        else if (num == 2){
+//            System.out.println("주사위는 2입니다.");
+//        }
+//        else if (num == 3){
+//            System.out.println("주사위는 3입니다.");
+//        }
+
+        //switch
+
+//        int time = (int)(Math.random()*4)+8;
+//        System.out.println("현재시간: " + time + "시");
+//
+//        switch(time){
+//            case 8:
+//                System.out.println("출근합니다");
+//            case 9:
+//                System.out.println("회의");
+//            case 10:
+//                System.out.println("업무시간");
+//            default:
+//                System.out.println("퇴근합니다");
+//        }
+//        String position = "과장";
+//
+//        switch (position){
+//            case "부장":
+//                System.out.println("월급 700");
+//                break;
+//            case "과장":
+//                System.out.println("월급 500");
+//                break;
+//            default:
+//                System.out.println("월 300");
+//        }
+        //반복문
+        //for
+//        int sum = 0;
+//        for (int i = 1; i <= 100; i++) {
+//            sum = sum + i;
+//        }
+//        System.out.println("1부터 100까지의 합: " + sum);
+        //중첩 for
+//        for (int m=2; m<=9; m++){
+//            System.out.println(m + "단");
+//            for (int n=1; n<=9; n++){
+//                System.out.println(m + "x" + n +"="+(m*n));
+//            }
+//        }
+        //while
+//        int sum = 0;
+//
+//        int i=1;
+//        while(i<=100) {
+//            sum += i;
+//            i++;
+//        }
+//        System.out.println("1~100합: " + sum);
+
+        //break
+//        while(true){
+//            int num = (int)(Math.random()*6)+1;
+//            System.out.println(num);
+//            if (num ==6){
+//                break;
+//            }
+//        }
+//        System.out.println("프로그램 종료");
+
+        //continue
+//        for (int i=1; i<=10; i++) {
+//            if(i%2 != 0){
+//                continue;
+//            }
+//            System.out.println(i);
+//        }
+//       int sum = 0;
+//
+//       for (int i=1; i<=100; i++) {
+//           if (i % 3 == 0){
+//               sum += i;
+//           }
+//       }
+//       System.out.println(sum);
+
+//        int n,m;
+//
+//        while(true){
+//            n = (int)(Math.random()*6)+1;
+//            m = (int)(Math.random()*6)+1;
+//
+//            System.out.println("(" + n + "," + m + ")");
+//
+//            if ( n + m == 5){
+//                break;
+//            }
+//        }
