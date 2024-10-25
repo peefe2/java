@@ -1,0 +1,40 @@
+// 클래스 정의 예시: Car 클래스
+public class Car {
+    // 필드 (멤버 변수)
+    String color;
+    String model;
+    int speed;
+
+    // 생성자
+    public Car(String color, String model) {
+        this.color = color;
+        this.model = model;
+        this.speed = 0; // 초기 속도는 0으로 설정
+    }
+
+    // 메소드 (행동)
+    public void accelerate(int increment) {
+        speed += increment;
+        System.out.println(model + "의 속도가 " + increment + "만큼 증가하여 현재 속도는 " + speed + "입니다.");
+    }
+
+    public void brake(int decrement) {
+        speed -= decrement;
+        if (speed < 0) speed = 0;
+        System.out.println(model + "의 속도가 " + decrement + "만큼 감소하여 현재 속도는 " + speed + "입니다.");
+    }
+
+    // 메인 메소드 (테스트용)
+    public static void main(String[] args) {
+        // Car 객체 생성
+        Car myCar = new Car("빨간색", "스포츠카");
+        Car yourCar = new Car("파란색", "세단");
+
+        // 메소드 호출
+        myCar.accelerate(50);
+        myCar.brake(20);
+
+        yourCar.accelerate(30);
+        yourCar.brake(10);
+    }
+}
