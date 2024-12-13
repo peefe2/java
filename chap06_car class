@@ -6,7 +6,7 @@ public class Car {
     int speed;
 
     // 생성자
-    public Car(String color, String model) {
+    public Car(String color, String model, int speed) {
         this.color = color;
         this.model = model;
         this.speed = 0; // 초기 속도는 0으로 설정
