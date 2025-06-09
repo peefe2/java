@@ -1,0 +1,48 @@
+package chap07;
+public class Car {
+    public int speed;
+
+    Car(int speed){
+        this.speed = speed;
+    }
+
+    public void ShowSpeed(){
+        System.out.println("Truck speed: " + speed);
+    }
+}
+
+package chap07;
+
+public class Truck extends Car {
+    public double speed;
+    Truck(double speed)
+    {
+        super(0);
+        this.speed = speed;
+    }
+    public void ShowSpeed(){
+        System.out.println(speed);
+    }
+
+
+}
+
+
+package chap07;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Car car = new Car(100);
+
+        System.out.println("speed: " + car.speed);
+
+        Truck truck = new Truck(80);
+        truck.ShowSpeed();
+        System.out.println("Speed: " + truck.speed);
+        Car car = truck;
+        car.ShowSpeed();
+        System.out.println("Speed: " + car.speed);
+
+    }
+}
